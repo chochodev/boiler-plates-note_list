@@ -1,0 +1,12 @@
+:root{
+    --mainColor:rgb(172, 80, 5);
+    --textColor:rgb(26, 12, 0);
+    --btnColor:rgb(116, 182, 71);
+    --backgroundColor:rgb(250, 172, 108);
+    --inputColor:rgb(2, 62, 71);
+    --hoverColor: rgb(250, 131, 72);
+}
+
+label{
+    color:rgb(250, 150, 100);
+}

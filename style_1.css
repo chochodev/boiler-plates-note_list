@@ -1,0 +1,9 @@
+:root{
+    --mainColor:rgb(247, 182, 63);
+    --textColor:rgb(55, 128, 138);
+    --buttonColor:rgb(174, 177, 1);
+    --btnColor:rgb(38, 96, 0);
+    --backgroundColor:rgb(255, 254, 201);
+    --inputColor:rgb(221, 170, 94);
+    --hoverColor: rgb(250, 150, 100);
+}
