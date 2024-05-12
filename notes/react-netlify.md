@@ -7,9 +7,9 @@
 <small>
   <quote>Else<quote> The page besides '/' path might show a modal of the content:
 </small>
-<i>Page Not Found
+_Page Not Found
 Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
 
  Back to our site
 
-If this is your site, and you weren't expecting a 404 for this path, please visit Netlify's "page not found" support guide for troubleshooting tips.</i>
+If this is your site, and you weren't expecting a 404 for this path, please visit Netlify's "page not found" support guide for troubleshooting tips._
