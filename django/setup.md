@@ -24,7 +24,7 @@ This should cover all I need to do in setting up and using Django Rest
 It is good practice to utilize virtual environment:
 
 To use virtual environment:
-<small>Make sure python is installed properly. version 3.3^</small>
+<small style="font-size: 0.875rem;">Make sure python is installed properly. version 3.3^</small>
 
 1. Create a virtual environment using the following command:
   ```
