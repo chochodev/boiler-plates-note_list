@@ -133,7 +133,7 @@ It is good practice to utilize a file to save the libraries used your project:
   ```
 
 #### Cloudinary
-[Cloudinary](#https://cloudinary.com) is a cloud service that is commonly used for media management and improvement of user experience by automatically delivering images and videos, enhance and optimize request for every user.
+[Cloudinary](https://cloudinary.com) is a cloud service that is commonly used for media management and improvement of user experience by automatically delivering images and videos, enhance and optimize request for every user.
 
 1. To install cloudinary:
   ```
