@@ -4,24 +4,13 @@ This should cover all I need to do to setup a django API
 ## TABLE OF CONTENTS
 
 - [Description](#description)
-<details>
-  <summary>[Installation](#installation)</summary>
-  <br>
-  <pre>
-    &lt;details&gt;
-    &lt;summary&gt;How do I dropdown?&lt;&#47;summary&gt;
-    &lt;br&gt;
-    This is how you dropdown.
-    &lt;&#47;details&gt;
-  </pre>
-  - - [VirtualENV](#virtual-env)
-  - - [RestAPI](#djangorestapi)
-  - - [Requirements](#requirements-file)
-</details>
+- [Installation](#installation)
+  - [VirtualENV](#virtual-env)
+  - [RestAPI](#djangorestapi)
+  - [Requirements](#requirements-file)
 - [Setup](#setup)
-- - [Decouple](#decouple)
-- - [Cloudinary](#cloudinary)
-- - 
+  - [Decouple](#decouple)
+  - [Cloudinary](#cloudinary)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
