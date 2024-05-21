@@ -9,6 +9,9 @@ This should cover all I need to do to setup a django API
 - [Contributing](#contributing)
 - [License](#license)
 
+## DESCRIPTION
+This should cover all I need to do in setting up and using Django Rest 
+
 ## INSTALLATION
 Creating a django project
 > In the projects directory 
