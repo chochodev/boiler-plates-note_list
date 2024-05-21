@@ -5,6 +5,8 @@ This should cover all I need to do to setup a django API
 
 - [Description](#description)
 - [Installation](#installation)
+- [Setup](#setup)
+- - [Cloudinary](#cloudinary)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -64,7 +66,15 @@ SECRET_KEY = config('SECRET_KEY', cast=str)
 DEBUG = config('DEBUG', default=False, cast=bool)
 ```
 
-## To cloudinary:
+> To register your models in admin.py
+```
+from django.contrib import admin
+from .models import User
+
+admin.site.register(User)
+```
+
+## Cloudinary:
 ```
 pip install cloudinary
 ```
@@ -80,12 +90,4 @@ cloudinary.config(
   api_key="your_api_key",
   api_secret="your_api_secret",
 )
-```
-
-## To register your models in admin.py
-```
-from django.contrib import admin
-from .models import User
-
-admin.site.register(User)
 ```
