@@ -4,10 +4,20 @@ This should cover all I need to do to setup a django API
 ## TABLE OF CONTENTS
 
 - [Description](#description)
-- [Installation](#installation)
-- - [VirtualENV](#virtual-env)
-- - [RestAPI](#djangorestapi)
-- - [Requirements](#requirements-file)
+<details>
+  <summary>[Installation](#installation)</summary>
+  <br>
+  <pre>
+    &lt;details&gt;
+    &lt;summary&gt;How do I dropdown?&lt;&#47;summary&gt;
+    &lt;br&gt;
+    This is how you dropdown.
+    &lt;&#47;details&gt;
+  </pre>
+  - - [VirtualENV](#virtual-env)
+  - - [RestAPI](#djangorestapi)
+  - - [Requirements](#requirements-file)
+</details>
 - [Setup](#setup)
 - - [Decouple](#decouple)
 - - [Cloudinary](#cloudinary)
@@ -133,7 +143,7 @@ It is good practice to utilize a file to save the libraries used your project:
   ```
 
 #### Cloudinary
-[Cloudinary](https://cloudinary.com){:target="_blank"} is a cloud service that is commonly used for media management and improvement of user experience by automatically delivering images and videos, enhance and optimize request for every user.
+[Cloudinary](https://cloudinary.com) is a cloud service that is commonly used for media management and improvement of user experience by automatically delivering images and videos, enhance and optimize request for every user.
 
 1. To install cloudinary:
   ```
