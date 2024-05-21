@@ -20,6 +20,10 @@ This should cover all I need to do in setting up and using Django Rest
 
 ## INSTALLATION
 
+- [VirtualENV](#virtual-env)
+- [RestAPI](#djangorestapi)
+- [Requirements](#requirements-file)
+
 #### Virtual ENV
 It is good practice to utilize virtual environment:
 
@@ -95,6 +99,9 @@ It is good practice to utilize a file to save the libraries used your project:
 
 
 ## SETUP
+- [Decouple](#decouple)
+- [Cloudinary](#cloudinary)
+
 #### Decouple
 1. To setup decouple for api secrets
   ```
