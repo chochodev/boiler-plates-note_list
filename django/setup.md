@@ -1,12 +1,13 @@
 ## BOILER PLATE Code and Setup/Installation for Django
 This should cover all I need to do to setup a django API
 
-## Table of Contents
+## TABLE OF CONTENTS
 
 - [Description](#description)
 - [Installation](#installation)
 - [Setup](#setup)
 - - [Cloudinary](#cloudinary)
+- - [RestAPI](#restapi)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
