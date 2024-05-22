@@ -8,3 +8,4 @@ I try to make it as comprehensive as possible.
 
 - [CSS](./boiler-plates/css/starter.css)
 - [Django](./django/setup.md)
+- [React](./react/setup.md)
