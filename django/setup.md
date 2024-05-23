@@ -97,6 +97,11 @@ It is good practice to utilize a file to save the libraries used your project:
   touch requirements.txt
   ```
 
+2. Add all the installed libraries and packages
+  ```
+  pip freeze > requirements.txt
+  ```
+
 
 ## SETUP
 - [Decouple](#decouple)
