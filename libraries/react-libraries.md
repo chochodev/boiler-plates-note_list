@@ -24,6 +24,8 @@ const MyComponent = () => {
     </LocalizationProvider>
   )
 }
+
+export default MyComponent
 ```
 
 ## CLICK-EVENT
