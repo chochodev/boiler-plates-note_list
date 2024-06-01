@@ -2,7 +2,7 @@
 To install, run this in you root directory:
 
 ```
-npm install -D tailwindcss
+npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init
 ```
 
@@ -19,6 +19,7 @@ module.exports = {
 }
 ```
 
+### INDEX.CSS
 In you src folder; add this to the first three lines of index.css:
 ```
 @tailwind base;
@@ -26,6 +27,7 @@ In you src folder; add this to the first three lines of index.css:
 @tailwind utilities;
 ```
 
+### OUTPUT.CSS
 Run:
 ```
 npx tailwindcss -i ./src/index.css -o ./src/output.css --watch
