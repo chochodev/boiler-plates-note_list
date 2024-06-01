@@ -13,7 +13,16 @@ Set-up your tailwind.config.js file in the root folder like this:
 module.exports = {
   content: ["./src/**/*.{html,js,ts,tsx,svelte}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary': '#007bff',
+        'secondary': '#ffc107',
+      },
+      boxShadow: {
+        'shadow-sm': '0 2px 5px rgba(0, 0, 0, 0.2)',
+        'inset-glow': 'inset 0 0 0 2px rgba(255, 255, 255, 0.5)',
+      },
+    },
   },
   plugins: [],
 }
