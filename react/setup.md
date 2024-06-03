@@ -18,3 +18,26 @@ SECRET=your_secret_key
 ```
 const secret = process.env.REACT_SECRET
 ```
+
+#### ABSOLUTE IMPORTS
+**TypeScript**
+For typescript enabled react projects, add this to your tsconfig.json:
+```
+baseUrl: 'src',
+```
+
+Your tsconfig.json should look like this:
+```
+{
+  "compilerOptions": {
+    // ...
+    "baseUrl": "src",
+    // ...
+  },
+  "include": ["src/**/*", "./**/*.ts", "./**/*.tsx", "./**/*.js", "./**/*.jsx"]
+}
+
+```
+
+Instead of relative import like this '../../../components/--all' (going back to root directory) or 'src/components/--all' (starting from root directory); 
+Do this instead, 'components/--all'
