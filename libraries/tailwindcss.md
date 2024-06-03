@@ -15,8 +15,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primary': '#007bff',
-        'secondary': '#ffc107',
+        primary: '#007bff',
+        secondary: '#ffc107',
       },
       boxShadow: {
         'shadow-sm': '0 2px 5px rgba(0, 0, 0, 0.2)',
