@@ -11,7 +11,7 @@ npx tailwindcss init
 Set-up your tailwind.config.js file in the root folder like this:
 ```
 module.exports = {
-  content: ["./src/**/*.{html,js,ts,tsx,svelte}"],
+  content: ["./src/**/*.{html,js,jsx,ts,tsx,svelte}"],
   theme: {
     colors: {
       primary: '#007bff',
@@ -45,3 +45,8 @@ Run:
 npx tailwindcss -i ./src/index.css -o ./src/output.css --watch
 ```
 
+### ADD LINK - REF:stylesheet
+Add this to the head tag of your index.html:
+```
+<link href="./src/output.css" rel="stylesheet">
+```
