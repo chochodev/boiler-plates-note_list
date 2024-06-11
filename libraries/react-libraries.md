@@ -33,3 +33,10 @@ export default MyComponent
 ```
 
 ```
+
+## REACT-SCROLL
+```
+npm install react-scroll
+```
+
+Docs here at [react-scroll](#https://www.npmjs.com/package/react-scroll)
