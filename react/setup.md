@@ -41,3 +41,31 @@ Your tsconfig.json should look like this:
 
 Instead of relative import like this '../../../components/--all' (going back to root directory) or 'src/components/--all' (starting from root directory); 
 Do this instead, 'components/--all'
+
+**Vite - React**
+In your vite.config.js, add:
+```
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+
+export default defineConfig({
+  plugins: [react()],
+  resolve: {
+    alias: {
+      "@": "/src"
+    },
+  }
+});
+```
+
+Then, add this in your js.config.json:
+```
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
+```
