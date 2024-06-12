@@ -2,7 +2,7 @@
 To install, run this in you root directory:
 
 ```
-npm install -D tailwindcss postcss autoprefixer
+npm install -D tailwindcss
 npx tailwindcss init
 ```
 
