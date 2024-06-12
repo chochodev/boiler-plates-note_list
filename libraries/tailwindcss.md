@@ -10,13 +10,11 @@ npx tailwindcss init
 ### TAILWIND.CONFIG.JS
 Set-up your tailwind.config.js file in the root folder like this:
 ```
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx,svelte}"],
   theme: {
-    colors: {
-      primary: '#007bff',
-      secondary: '#ffc107',
-    },
     boxShadow: {
       'small': '0 2px 5px rgba(0, 0, 0, 0.2)',
       'inset-glow': 'inset 0 0 0 2px rgba(255, 255, 255, 0.5)',
@@ -25,6 +23,14 @@ module.exports = {
       'sm': '480px',
       'md': '768px',
       'lg': '1024px'
+    },
+    extend: {
+      colors: {
+        primary: '#893D07',
+        secondary: '#F2B49B',
+        tertiary: '#A65E30',
+        ...defaultTheme.colors 
+      },
     }
   },
   plugins: [],
