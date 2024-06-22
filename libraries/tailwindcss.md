@@ -10,7 +10,8 @@ npx tailwindcss init
 ### TAILWIND.CONFIG.JS
 Set-up your tailwind.config.js file in the root folder like this:
 ```
-const defaultTheme = require('tailwindcss/defaultTheme');
+// const defaultTheme = require('tailwindcss/defaultTheme');
+import { defaultTheme } from 'tailwindcss/defaultTheme';
 
 module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx,svelte}"],

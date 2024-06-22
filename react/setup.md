@@ -20,6 +20,16 @@ const secret = process.env.REACT_SECRET
 ```
 
 #### ABSOLUTE IMPORTS
+**JavaScript**
+Modify your js.config.json file to look like this:
+```
+{
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": ["src"]
+}
+```
 **TypeScript**
 For typescript enabled react projects, add this to your tsconfig.json:
 ```
