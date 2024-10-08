@@ -49,60 +49,7 @@ module.exports = {
           700: '#257dcf', 
           800: '#68a8e4', 
           900: '#b4d4f2' 
-        }, 
-
-        'moonstone': { 
-          DEFAULT: '#53a2be', 
-          100: '#0f2128', 
-          200: '#1e4350', 
-          300: '#2d6478', 
-          400: '#3d85a0', 
-          500: '#53a2be', 
-          600: '#77b5cb', 
-          700: '#99c7d8', 
-          800: '#bbdae5', 
-          900: '#ddecf2' 
-        }, 
-
-        'blue_(ncs)': { 
-          DEFAULT: '#1d84b5', 
-          100: '#061a24', 
-          200: '#0c3548', 
-          300: '#124f6c', 
-          400: '#176a90', 
-          500: '#1d84b5', 
-          600: '#30a6dd', 
-          700: '#64bde6', 
-          800: '#97d3ee', 
-          900: '#cbe9f7' 
-        }, 
-
-        'gunmetal': { 
-          DEFAULT: '#132e32', 
-          100: '#04090a', 
-          200: '#081315', 
-          300: '#0c1c1f', 
-          400: '#102629', 
-          500: '#132e32', 
-          600: '#2c6a73', 
-          700: '#44a4b3', 
-          800: '#80c4cf', 
-          900: '#bfe2e7' 
-        }, 
-
-        'lapis_lazuli': { 
-          DEFAULT: '#176087', 
-          100: '#05131b', 
-          200: '#092636', 
-          300: '#0e3a51', 
-          400: '#124d6c', 
-          500: '#176087', 
-          600: '#218bc3', 
-          700: '#4aace0', 
-          800: '#87c8eb', 
-          900: '#c3e3f5' 
-        }
-      } -->
+        } -->
     }
   },
   plugins: [],
@@ -133,4 +80,21 @@ Add this to the head tag of your index.html:
 
 ```
 <link href="./src/output.css" rel="stylesheet">
+```
+
+
+### ADD CSS VALUE - FOR VITE
+Add this to vite.config.ts
+
+```
+import tailwindcss from 'tailwindcss'
+
+export default defineConfig({
+  // ...
+  css: {
+    postcss: {
+      plugins: [tailwindcss('./tailwind.config.js')],
+    },
+  },
+})
 ```
