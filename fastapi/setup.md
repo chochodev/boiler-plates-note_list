@@ -1,4 +1,5 @@
-
+# TO RUN THE SERVER
+```uvicorn app.main:app --reload```
 
 # TO MIGRATE
 For changes in database column
