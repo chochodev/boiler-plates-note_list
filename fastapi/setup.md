@@ -32,4 +32,3 @@ target_metadata = Business.metadata
 
 5. Apply the migration to the database
 ```alembic upgrade head```
-
