@@ -1,5 +1,6 @@
 # DIRECTORIES
 Alias for common commands you use;
+The file which bash checks for commands is usually ```.bashrc```, located in ```C:/Users/User/```
 
 **To open explorer (Windows file manager)**
 ```
@@ -11,6 +12,18 @@ alias e='explorer'
 alias work='cd "C:/Users/User/Documents/Workspace"'
 # alias projects='cd C:/Users/User/Documents/Projects'
 # alias latest='cd C:/Users/User/Documents/Projects/MyLatestProject'
+```
+
+# PROJECT DIRECTORIES
+```
+# Edit to suit your need
+# alias image='cd "C:/Users/User/Documents/Projects/image-editor"'
+```
+
+# Work Directories
+```
+# Edit to suit your need
+# alias rize='cd "C:/Users/User/Documents/Workspace/Rize-frontend4"'
 ```
 
 # EDIT & ADD NEW COMMANDS
