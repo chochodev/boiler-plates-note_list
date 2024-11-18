@@ -14,8 +14,6 @@ npx tailwindcss init
 Set-up your tailwind.config.js file in the root folder like this:
 
 ```
-// const defaultTheme = require('tailwindcss/defaultTheme');
-import { defaultTheme } from 'tailwindcss/defaultTheme';
 
 module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx,svelte}"],
@@ -35,7 +33,6 @@ module.exports = {
         primary: '#893D07',
         secondary: '#F2B49B',
         tertiary: '#A65E30',
-        ...defaultTheme.colors
       },
       <!-- colors: { 
         'oxford_blue': { 
