@@ -69,7 +69,7 @@ export default defineConfig({
 });
 ```
 
-Then, add this in your **ts.config.json**:
+Then, add this in your **tsconfig.json**:
 ```
 {
   "compilerOptions": {
@@ -81,7 +81,7 @@ Then, add this in your **ts.config.json**:
 }
 ```
 
-If your **ts.config.json** looks like this
+If your **tsconfig.json** looks like this
 ```
 {
   "references": [{ "path": "./tsconfig.node.json" }]
