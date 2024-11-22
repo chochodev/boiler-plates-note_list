@@ -2,16 +2,21 @@
 This is my react boilerplate/setup for new projects
 
 ## TABLE OF CONTENTS
+- [ENV File](#env)
 - [Setup](#setup)
+  > - [Absolute imports](#absoluteimports)
 
 ## SETUP
-  - [ENV File](#env)
   
 #### ENV
 1. Create a .env file in the root directory:
-! Make sure it starts with 'REACT'
+! Make sure it starts with ```REACT_APP```, ```VITE_APP``` for vite.
 ```
-SECRET=your_secret_key
+REACT_APP_SECRET=your_react_secret_key
+```
+or
+```
+VITE_APP_SECRET=your_vite_secret_key
 ```
 
 2. Access the secret in a any js/jsx or ts/tsx file like:
