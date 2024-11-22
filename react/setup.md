@@ -2,9 +2,9 @@
 This is my react boilerplate/setup for new projects
 
 ## TABLE OF CONTENTS
-- [ENV File](#env)
-- [Setup](#setup)
-  > - [Absolute imports](#absoluteimports)
+* [ENV File](#env)
+* [Setup](#setup)
+  * [Absolute imports](#absolute-imports)
 
 ## SETUP
   
