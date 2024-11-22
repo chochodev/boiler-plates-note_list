@@ -32,6 +32,7 @@ html {
   font-size: 16px;
 }
 
+/* ::::::::::: TAILWIND CSS 
 .ease-250 {
   transition: all 250ms ease-in-out;
 }
