@@ -10,13 +10,16 @@ This is my react boilerplate/setup for new projects
   
 #### ENV
 1. Create a .env file in the root directory:
-! Make sure it starts with ```REACT_APP```, ```VITE_APP``` for vite.
+> **Important**: Environment variables must be prefixed with:
+> - `REACT_APP_` for Create React App
+> - `VITE_` for Vite projects
+
 ```
 REACT_APP_SECRET=your_react_secret_key
 ```
 or
 ```
-VITE_APP_SECRET=your_vite_secret_key
+VITE_SECRET=your_vite_secret_key
 ```
 
 2. Access the secret in a any js/jsx or ts/tsx file like:
