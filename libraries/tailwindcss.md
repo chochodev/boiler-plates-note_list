@@ -1,4 +1,5 @@
 ## INSTALLATION
+
 To install, run this in you root directory:
 
 ```
@@ -7,11 +8,12 @@ npx tailwindcss init
 ```
 
 ## SETUP
+
 ### TAILWIND.CONFIG.JS
+
 Set-up your tailwind.config.js file in the root folder like this:
+
 ```
-// const defaultTheme = require('tailwindcss/defaultTheme');
-import { defaultTheme } from 'tailwindcss/defaultTheme';
 
 module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx,svelte}"],
@@ -31,8 +33,20 @@ module.exports = {
         primary: '#893D07',
         secondary: '#F2B49B',
         tertiary: '#A65E30',
-        ...defaultTheme.colors 
       },
+      <!-- colors: { 
+        'oxford_blue': { 
+          DEFAULT: '#0a2239', 
+          100: '#02070b', 
+          200: '#040e17', 
+          300: '#061422', 
+          400: '#081b2d', 
+          500: '#0a2239', 
+          600: '#174f84', 
+          700: '#257dcf', 
+          800: '#68a8e4', 
+          900: '#b4d4f2' 
+        } -->
     }
   },
   plugins: [],
@@ -40,7 +54,9 @@ module.exports = {
 ```
 
 ### INDEX.CSS
+
 In you src folder; add this to the first three lines of index.css:
+
 ```
 @tailwind base;
 @tailwind components;
@@ -48,13 +64,34 @@ In you src folder; add this to the first three lines of index.css:
 ```
 
 ### OUTPUT.CSS
+
 Run:
+
 ```
 npx tailwindcss -i ./src/index.css -o ./src/output.css --watch
 ```
 
 ### ADD LINK - REF:stylesheet
+
 Add this to the head tag of your index.html:
+
 ```
 <link href="./src/output.css" rel="stylesheet">
+```
+
+
+### ADD CSS VALUE - FOR VITE
+Add this to vite.config.ts
+
+```
+import tailwindcss from 'tailwindcss'
+
+export default defineConfig({
+  // ...
+  css: {
+    postcss: {
+      plugins: [tailwindcss('./tailwind.config.js')],
+    },
+  },
+})
 ```

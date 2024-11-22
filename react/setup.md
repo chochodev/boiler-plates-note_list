@@ -53,6 +53,54 @@ Instead of relative import like this '../../../components/--all' (going back to 
 Do this instead, 'components/--all'
 
 **Vite - React**
+**Typescript**
+In your **vite.config.ts**, add:
+```
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+
+export default defineConfig({
+  plugins: [react()],
+  resolve: {
+    alias: {
+      "@": "/src"
+    },
+  }
+});
+```
+
+Then, add this in your **tsconfig.json**:
+```
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
+```
+
+If your **tsconfig.json** looks like this
+```
+{
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
+```
+
+Add this to the referenced json file(s)
+```
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
+```
+
+**Javascript**
 In your vite.config.js, add:
 ```
 import { defineConfig } from "vite";
