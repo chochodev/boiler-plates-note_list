@@ -45,3 +45,20 @@ html {
 .ease-400 {
   transition: all 400ms ease-in-out;
 }
+
+/* remove input number arrows */
+
+/*
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+*/
+
+/* for tailwind css */
+/*
+.class { 
+ [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none
+}
+*/
