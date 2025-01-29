@@ -1,6 +1,6 @@
-### Add _redirects file to public folder
+### Create _redirects file in the public folder
 
-<p class="" style="color: green">Content below:</p>
+Content:
 ```/* /index.html 200```
 
 
